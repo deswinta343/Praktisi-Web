@@ -1,0 +1,19 @@
+{
+    "data": [{
+            "id": 1,
+            "name": "Deswinta Daadhilah Eka Susanto",
+            "address": "Magetan"
+        },
+        {
+            "id": 2,
+            "name": "Shabrina Naura",
+            "address": "solo"
+        },
+        {
+            "id": 3,
+            "name": "Audy Della",
+            "address": "Madiun"
+        }
+    ]
+
+}

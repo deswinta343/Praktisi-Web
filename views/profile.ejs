@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+
+<body>
+    This is my website <br>
+
+    <% for (let index = 0; index < newMahasiswa.length; index++) { %>
+        <% const dataMahasiswa = newMahasiswa[index]; %>
+            <ul>
+                <li>NIM:
+                    <%= dataMahasiswa.nim %>
+                </li>
+                <li>Nama:
+                    <%= dataMahasiswa.name %>
+                </li>
+            </ul>
+            <% } %>
+</body>
+
+
+</html>
